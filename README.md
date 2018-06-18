@@ -1,12 +1,12 @@
 # urbit-alpine-docker
 
-** Ths repository is deprecated. See [asssaf/urbit-docker](https://github.com/asssaf/urbit-docker) instead. **
+### This repository is deprecated. See [asssaf/urbit-docker](https://github.com/asssaf/urbit-docker) instead.
 
 [![Docker Build Status](https://img.shields.io/docker/build/asssaf/urbit-alpine.svg?style=flat)](https://hub.docker.com/r/asssaf/urbit-alpine/)
 
 Minimal alpine linux based image for running [Urbit](https://urbit.org)
 
-**Warning: Make sure you mount a volume for the `/urbit/$SHIP` directory in the container, otherwise you may lose the urbit's key and state unrecoverably! **. The provided create/run scripts do that for you, but be careful if running a custom docker command.
+**Warning: Make sure you mount a volume for the `/urbit/$SHIP` directory in the container, otherwise you may lose the urbit's key and state unrecoverably!**. The provided create/run scripts do that for you, but be careful if running a custom docker command.
 
 This container builds an APK and installs it. See the APK section for details on building the apk separately.
 
