@@ -1,4 +1,7 @@
 # urbit-alpine-docker
+
+** Ths repository is deprecated. See [asssaf/urbit-docker](https://github.com/asssaf/urbit-docker) instead. **
+
 [![Docker Build Status](https://img.shields.io/docker/build/asssaf/urbit-alpine.svg?style=flat)](https://hub.docker.com/r/asssaf/urbit-alpine/)
 
 Minimal alpine linux based image for running [Urbit](https://urbit.org)
